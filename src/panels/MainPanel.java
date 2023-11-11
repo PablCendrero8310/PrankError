@@ -288,22 +288,22 @@ public class MainPanel extends JPanel {
 	public int getType(ButtonsPanel p) {
 		String s = p.getSelection();
 		if (s.equals("Error") || s.equals("Sí y no"))
-			return JOptionPane.ERROR_MESSAGE;
+			return 0;
 
 		else if (s.equals("Advertencia") || s.equals("OK y cancelar"))
-			return JOptionPane.WARNING_MESSAGE;
+			return 2;
 
 		else if (s.equals("Información") || s.equals("Sí, no y cancelar"))
-			return JOptionPane.INFORMATION_MESSAGE;
+			return 1;
 
 		else if (s.equals("Pregunta"))
-			return JOptionPane.QUESTION_MESSAGE;
+			return 3;
 
 		else if (s.equals("Ninguno") || s.equals("OK"))
-			return JOptionPane.PLAIN_MESSAGE;
+			return -1;
 
 		else
-			return JOptionPane.PLAIN_MESSAGE;
+			return -1;
 
 	}
 
