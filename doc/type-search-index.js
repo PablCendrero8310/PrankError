@@ -1,1 +1,0 @@
-typeSearchIndex = [{"l":"All Classes and Interfaces","u":"allclasses-index.html"},{"p":"panels","l":"MainPanel.BoxPanel"},{"p":"panels","l":"ButtonsPanel"},{"p":"frames","l":"Frame"},{"p":"<Unnamed>","l":"Main"},{"p":"panels","l":"MainPanel"},{"p":"panels","l":"Message_Panel"},{"p":"panels","l":"MainPanel.ShowAction"}];updateSearchResults();
